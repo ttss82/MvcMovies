@@ -42,7 +42,6 @@ namespace MvcMovie
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            // Komentar za GitHub Test
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
